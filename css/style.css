@@ -12,5 +12,21 @@
     
     
     overflow: hidden;
-    height: 80vh;
+    height: 70vh;
+}
+
+.bgFirst {
+    background: rgb(231, 121, 57);
+}
+
+.bgSecond {
+  background: rgb(138, 134, 134);
+}
+
+
+
+@media (max-width:400px) {
+    .backgroundImage {
+        height: 100vh;
+    }
 }
