@@ -7,12 +7,8 @@
 .backgroundImage {
     background: url(/img/code6.jpeg)center;
     background-repeat: no-repeat;
-    
     background-size: cover;
-    
-    
-    overflow: hidden;
-    height: 70vh;
+    overflow: hidden; 
 }
 
 .bgFirst {
@@ -23,7 +19,13 @@
   background: rgb(138, 134, 134);
 }
 
+.img1 {
+    width: 180px;
+}
 
+.img11 {
+    min-width: 180px;
+}
 
 @media (max-width:400px) {
     .backgroundImage {
