@@ -1,7 +1,7 @@
 
 # Capstone project
 
-> Capstone projects is a solo projects. It is a real-world-like project built with business specifications This project was at the end of the HTML & CSS module.
+> Capstone projects is a solo projects. It is a real-world-like project built with business specifications.
 
 ## Homepage
 ![screenshot](./img/indexscreen.png)
@@ -19,8 +19,6 @@
 
 
 
-
-
 ## Built With
 
 - HTML5 
@@ -29,8 +27,19 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/14d27de3a445331b8ed0424a25e14e64e2fed4aa/index.html)
 
+
+## Video
+
+[Video Link](https://www.loom.com/share/09263495f5084583b39bfadc444a49ce)
+
+
+
+## Credit
+
+- Design Created by Mather Njuguna and Sam Achola on behance.
+- See the Design Template on behance
 
 ## Authors
 
