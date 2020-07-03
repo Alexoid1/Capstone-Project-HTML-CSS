@@ -24,8 +24,8 @@
 ## Built With
 
 - HTML5 
-- Fontawesome (99% Bootstrap style)
-- Bootstrap
+- Fontawesome 
+- Bootstrap (99% Bootstrap style)
 
 ## Live Demo
 
