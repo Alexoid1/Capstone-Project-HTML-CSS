@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/14d27de3a445331b8ed0424a25e14e64e2fed4aa/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/6608a3b6065cefc3b1f05337ca8124e40c16b3b4/index.html)
 
 
 ## Video
