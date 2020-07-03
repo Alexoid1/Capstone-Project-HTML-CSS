@@ -1,10 +1,8 @@
-
-
 .backgroundImage {
-  background: url(/img/code6.jpeg)center;
+  background: url(/img/code6.jpeg) center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .foterLogo {
@@ -35,8 +33,8 @@
   list-style: none;
 }
 
-@media (max-width:400px) {
-    .backgroundImage {
-      height: 100vh;
-    }
+@media (max-width: 400px) {
+  .backgroundImage {
+    height: 100vh;
+  }
 }
