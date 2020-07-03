@@ -12,10 +12,10 @@
 
 
 ## Sign up Page
-![screenshot](./img/screen.png)
+![screenshot](./img/phonescreen.png)
 
 ## Course Information Page
-![screenshot](./img/screen.png)
+![screenshot](./img/coursescreen.png)
 
 
 
