@@ -1,18 +1,18 @@
 
 
 .backgroundImage {
-    background: url(/img/code6.jpeg)center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden; 
+  background: url(/img/code6.jpeg)center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; 
 }
 
 .foterLogo {
-    width: 80px;
+  width: 80px;
 }
 
 .bgFirst {
-    background: rgb(231, 121, 57);
+  background: rgb(231, 121, 57);
 }
 
 .bgSecond {
@@ -20,24 +20,23 @@
 }
 
 .img1 {
-    width: 180px;
+  width: 180px;
 }
 
 .img111 {
-    width: 100px;
+  width: 100px;
 }
 
 .img11 {
-    min-width: 180px;
+  min-width: 180px;
 }
 
 .listNone {
-    list-style: none;
+  list-style: none;
 }
 
 @media (max-width:400px) {
     .backgroundImage {
-        height: 100vh;
+      height: 100vh;
     }
 }
-
