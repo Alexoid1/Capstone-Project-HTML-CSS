@@ -1,5 +1,5 @@
 .backgroundImage {
-  background: url(img/code6.jpeg) center;
+  background: url(./img/code6.jpeg) center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
