@@ -36,7 +36,7 @@
                         <a href="./index.html#about" class="text-decoration-none text-white  d-md-flex align-items-center mx-2">
                             <i class="fa fa-user mx-2" ></i><span class="text-uppercase d-none d-lg-block small">ABOUT</span>
                         </a>
-                        <a href="./inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
+                        <a href="inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
                             <i class="fas fa-rss mx-2 "></i><span class="text-uppercase d-none d-lg-block small">SUSCRIBTION</span>
                         </a>
                         <a href="./index.html#adverti" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
@@ -49,12 +49,14 @@
         </div>
     </nav>
     <main class='pt-5'>
-        <div class='col-12 bgSecond my-5 py-5'>
+        <div class='col-12 my-5 py-5'>
             <h4 class='text-center text-dark py-4'>Filter by Mode, Country, Skill, Course</h4>
-            <form class='py-4 col-10 col-md-11 mx-auto'>
+            <form class='py-4 col-11 mx-auto shadow p-3 mb-5 bg-white rounded border'>
                 <div class="row">
-                  
-                  <div class="col-12 col-md-2 mt-4">
+                  <div class="col-6 mt-4">
+                    <input type="text" class="form-control" placeholder="Search by name">
+                  </div>
+                  <div class="col-6 col-lg-2 mt-4">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                         <option selected>Mode</option>
@@ -65,7 +67,7 @@
                         <option value="5">University</option>
                     </select>
                   </div>
-                  <div class="col-12 col-md-2 mt-4">
+                  <div class="col-6 mt-4">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                         <option selected>Country</option>
@@ -76,9 +78,9 @@
                         <option value="5">Germany</option>
                     </select>
                   </div>
-                  <div class="col-12 col-md-2 mt-4">
+                  <div class="col-12 col-lg-2 mt-4">
                     <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
-                    <select class="custom-select " id="inlineFormCustomSelect">
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                         <option selected>Skills...</option>
                         <option value="1">Basics Of Programing</option>
                         <option value="2">Javascript</option>
@@ -87,7 +89,7 @@
                         <option value="5">React</option>
                     </select>
                     </div>
-                    <div class="col-12 col-md-2 mt-4">
+                    <div class="col-12 col-lg-1 mt-4">
                         <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
                         <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
                             <option selected>Course</option>
@@ -98,10 +100,10 @@
                             <option value="5">Fazts Web</option>
                         </select>
                     </div>
-                    <div class='mx-auto col-12 col-md-4 d-flex justify-content-start align-items-center row'>
-                        <a href="#result-schools" class="mx-auto col-5 col-md-4 d-inline-block btn btn-danger btn-block btn-small mt-4 text-decoration-none text-white" type="button">Search</a>
+                    <div class='mx-auto col-12 col-lg-3 d-flex justify-content-start align-items-center row'>
+                        <a href="#result-schools" class="mx-auto col-5 col-lg-4 d-inline-block btn btn-danger btn-block btn-small mt-4 text-decoration-none text-white" type="button">Search</a>
          
-                        <button type="reset" class="mx-auto col-5 col-md-7 d-inline-block btn btn-warning btn-small btn-block mt-4 text-white ">
+                        <button type="reset" class="mx-auto col-5 col-lg-7 d-inline-block btn btn-warning btn-small btn-block mt-4 text-white ">
                             Clear Filters
                         </button>
                     </div>
@@ -110,35 +112,7 @@
                 
             </form>
 
-              
-        </div>
-        <div>
-            <h2 class="text-center text-dark" id='results'>Search Results</h2>
-        </div>
-        <div class='col-12 row'>
-            <a target='_blank' href='https://www.freecodecamp.org' class=" mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/freecode.jpeg" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>Free Code Camp</h5>
-            </a>
-            <a target='_blank' href='https://www.faztweb.com' class="mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/faazt_v3.png" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>Fazt Web</h5>
-            </a>
-            <a target='_blank' href='https://javascript30.com' class="mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/javasc30.png" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>Javascript 30</h5>
-            </a>
-            <a target='_blank' href='https://www.uxpin.com/knowledge' class="mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/vschool.jpg" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>VSchool</h5>
-            </a>
-            <a target='_blank' href='https://hackdesign.org' class="mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/hackdesign.jpg" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>Hack Design</h5></a>
-            <a target='_blank' href='https://www.theodinproject.com/dashboard' class="mx-auto col-10 col-md-4 my-4 text-decoration-none">
-                <img src="./img/odin.png" alt="" class="w-100 border">
-                <h5 class='text-center mt-2 text-dark'>Odin Project</h5></a>
-        </div>
+        </div>      
  
     </main>
     <footer class="navbar navbar-dark bg-dark navbar-expand pt-5">
