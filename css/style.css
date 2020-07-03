@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+
 
 .backgroundImage {
     background: url(/img/code6.jpeg)center;
@@ -11,12 +7,16 @@
     overflow: hidden; 
 }
 
+.foterLogo {
+    width: 80px;
+}
+
 .bgFirst {
     background: rgb(231, 121, 57);
 }
 
 .bgSecond {
-  background: rgb(138, 134, 134);
+  background: rgb(218, 213, 213);
 }
 
 .img1 {
@@ -27,8 +27,13 @@
     min-width: 180px;
 }
 
+.listNone {
+    list-style: none;
+}
+
 @media (max-width:400px) {
     .backgroundImage {
         height: 100vh;
     }
 }
+
