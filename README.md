@@ -1,16 +1,30 @@
+
 # Capstone project
 
-> This is a 
+> Capstone projects is a solo projects. It is a real-world-like project built with business specifications This project was at the end of the HTML & CSS module.
 
+## Homepage
+![screenshot](./img/indexscreen.png)
+
+
+## Search Page
+![screenshot](./img/searchscreen.png)
+
+
+## Sign up Page
 ![screenshot](./img/screen.png)
+
+## Course Information Page
+![screenshot](./img/screen.png)
+
+
 
 
 
 ## Built With
 
 - HTML5 
-- CSS
-- Fontawesome
+- Fontawesome (99% Bootstrap style)
 - Bootstrap
 
 ## Live Demo
@@ -34,10 +48,6 @@ Contributions, issues and feature requests and any type of feedback to improve a
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- 
 
 
 ## 📝 License
