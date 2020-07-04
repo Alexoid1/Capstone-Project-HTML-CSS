@@ -1,7 +1,7 @@
 
 # Capstone project
 
-> Capstone projects is a solo projects. It is a real-world-like project built with business specifications.
+> Capstone projects is the final project of HTML CSS module has to made a web site (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Homepage
 ![screenshot](./img/indexscreen.png)
@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/232908377bc0bf3658b01d161459c302ebacd29b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/2aa164afa986e9fb6f3c396160a08eb2696e63ad/index.html)
 
 
 ## Video
@@ -38,8 +38,8 @@
 
 ## Credit
 
-- Design Created by Mather Njuguna and Sam Achola on behance.
-- See the Design Template on behance
+- Design by Mather Njuguna and Sam Achola.
+- See the Design Template on behance (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Authors
 
