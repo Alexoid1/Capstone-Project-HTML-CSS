@@ -1,7 +1,7 @@
 
 # Capstone project
 
-> Capstone projects is a solo projects. It is a real-world-like project built with business specifications.
+> Capstone projects is the final project of HTML CSS module has to made a web site (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Homepage
 ![screenshot](./img/indexscreen.png)
