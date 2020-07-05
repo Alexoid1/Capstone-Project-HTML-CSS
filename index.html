@@ -13,8 +13,8 @@
         <link rel="stylesheet" href="css/style.css" />
         
     </head>
-    <body>
-        <nav id="navbar" class="container-fluid navbar bg-danger sticky-top">
+    <body class="w-100">
+        <nav id="navbar" class="navbar navBg sticky-top">
             <div class="col-12 row">
             
                 <div class="col-sm-12 col-md-5 ">
@@ -32,16 +32,16 @@
                         <h4 class=" text-center text-md-right d-md-flex justify-content-end">
                             <a href="./search.html" class="text-decoration-none text-white d-md-flex align-items-center mx-2">
                                 <i class="fas fa-search mx-2"></i>
-                                <span class="text-uppercase d-none d-lg-block small">COURSES</span>
+                                <span class="text-uppercase textNone small">COURSES</span>
                             </a>
                             <a href="#about" class="text-decoration-none text-white  d-md-flex align-items-center mx-2">
-                                <i class="fas fa-rss mx-2" ></i><span class="d-none d-lg-block small">ABOUT</span>
+                                <i class="fas fa-rss mx-2" ></i><span class="textNone small">ABOUT</span>
                             </a>
                             <a href="./inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
-                                <i class="fa fa-user mx-2 "></i><span class="d-none d-lg-block small">SIGN</span>
+                                <i class="fa fa-user mx-2 "></i><span class="textNone small">SIGN</span>
                             </a>
                             <a href="./course.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
-                                <i class="fa fa-list mx-2 " ></i><span class="d-none d-lg-block small">MORE</span>
+                                <i class="fa fa-list mx-2 " ></i><span class="textNone small">MORE</span>
                             </a>
                         </h4>
                     </div>
@@ -49,42 +49,45 @@
             
             </div>
         </nav>
-        <main>
-            <div class='backgroundImage vh-70 pb-5 '>
-                <div class="col-12 mt-3">
-                    <div class="row">
-                        <div class="col-sm-12 text-center text-white text-uppercase  d-flex justify-content-center mx-0 px-0 mt-5  pt-5">
-                            <h1 class="d-none d-sm-block font-weight-bolder display-9">Free Courses... The best way to start learning code</h1>
-                            <h5 class="d-block d-sm-none font-weight-bolder display-9">Free Courses... The best way to start learning code</h5>
-                        </div>
-                        <div class="col-sm-10 col-md-8 header-text text-uppercase text-dark h5 font-weight-bold search-area p-3 rounded mx-2 mx-md-auto ">
-                            <h6 class="py-1 text-white d-block text-left">Search</h6>
-                            <div class='row d-flex justify-content-center'>
-                                <div class="input-group mb-3  formBackground">
-                                        
-                                    <input class="form-control col-md-10 mb-2 mx-0" type="text" placeholder="Write here" readonly>
-                            
-                                    <div class="input-group-append  d-block col-md-2">
-                                        <form action="result.html">
-                                            <a href="./search.html" class="btn btn-danger mx-0 btn-block rounded text-white" role="button">Search</a>
-                                        </form>
-                                    </div>
-                            
-                                </div>
+        <main >
+            <div class="formBackground">
+                <div class='backgroundImage   vh-70 pb-5 '>
+                    <div class="col-12 mt-3 ">
+                        <div class="row">
+                            <div class="col-10 col-sm-12 text-center text-white text-uppercase  d-flex justify-content-center mx-auto px-0 mt-5  pt-5">
+                                <h3 class="searchHeadernone d-sm-block font-weight-bolder display-9">Free Courses... The best way to start learning code</h3>
+                                <h5 class="d-block d-sm-none font-weight-bolder display-9">Free Courses... The best way to start learning code</h5>
                             </div>
-                        
+                            <div class="formBackground col-sm-10 col-md-6 header-text text-uppercase text-dark font-weight-bold p-3 rounded mx-2 mx-auto ">
+                                <h6 class="text-dark d-block text-left ">Search</h6>
+                                <div class='row d-flex justify-content-center '>
+                                    <div class="input-group mb-3 ">
+                                            
+                                        <input class="form-control col-11 col-md-10 mb-2 mx-auto form2" type="text"  readonly>
+                                
+                                        <div class="input-group-append  d-block  col-md-2 botonStyle">
+                                            <form action="result.html">
+                                                <a href="./search.html" class="btn navBg mx-0 btn-block rounded text-white textsIZE" role="button">Search</a>
+                                            </form>
+                                        </div>
+                                
+                                    </div>
+                                </div>
+                            
+                            </div>
                         </div>
+                     </div>
+                    <div class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 pt-2 ">
+                        <a class="btn search-area text-white font-weight-bold rounded" href="#about" role="button">How it works</a>
                     </div>
-                 </div>
-                <div class="col-sm-12 text-center  text-white text-uppercase header-text d-flex justify-content-center h4 mx-0 px-0 mt-5 pt-2 ">
-                    <a class="btn search-area text-white font-weight-bold rounded" href="#about" role="button">How it works</a>
+                    
                 </div>
-                
             </div>
+            
             <section class='text-center my-4' id='about'>
                 
                     <div class='col-12 my-5'>
-                        <h4>FREE COURSES WORKS IN FOUR SIMPLE STEPS</h4>
+                        <h1 class='title1'>FREE COURSES WORKS IN FOUR SIMPLE STEPS</h1>
                     </div>
                     <div class="col-12 row">
                         <div class="col-12 col-lg-6 my-sm-5">
@@ -126,36 +129,36 @@
                     </div>             
             </section>
             <section class='text-center text-white' id='adverti'>
-                <div class="col-12  d-flex justify-content-center justify-content-sm-between align-items-center py-5 bgFirst mx-0">
-                    <div class='col-10 col-sm-7 col-md-5 text-left ml-5'>
+                <div class="col-12  dFlexBet align-items-center py-5 bgFirst mx-0"> <!-- using displayFlex with css plain -->
+                    <div class='col-10 col-sm-7 col-md-5 text-center text-sm-left ml-5 botonCenter'>
                         <img src="img/study.png" alt="" class='d-col-block d-sm-none rounded-circle img1 mb-3'>
                         <h5 class='font-weight-bold text-header'>Over 1000 courses to choose all over the World!</h5>
                         <span>Find the course nearest from your home</span>
-                        <a class="col-8 btn btn-light btn-block rounded col-sm-6 mt-3 text-dark" href="./search.html" role="button">Find Courses</a>
+                        <a class="btn btn-light btn-block rounded col-sm-6 mt-3 text-dark " href="./search.html" role="button">Find Courses</a>
                     </div>
-                    <div class='overflow-hidden text-right mr-5 d-none d-sm-block'>
+                    <div class='overflow-hidden text-right mr-md-5  searchHeadernone d-sm-block '>
                         <img src="img/study.png" alt="" class='col-5 rounded-circle img11'>
                     </div>
                 </div>
-                <div class="col-12  d-flex justify-content-center justify-content-sm-between align-items-center py-5 bg-secondary mx-0">
-                    <div class='col-10 col-sm-7 col-md-5 text-left ml-5'>
+                <div class="col-12  dFlexBet align-items-center py-5 bg-secondary mx-0"> <!-- using displayFlex with css plain -->
+                    <div class='col-10 col-sm-7 col-md-5 text-center text-sm-left ml-5 botonCenter'>
                             
                         <img src="img/metro.png" alt="" class='d-col-block d-sm-none rounded-circle img1 mb-3'>
                         <h5 class='font-weight-bold'>No need to spend hours in transport to take a course in your city</h5>
                         <span>Find the course nearest from your home</span>
-                        <a href='./search.html#results' class="btn btn-light btn-block rounded col-8 mt-3 text-dark" role="button">Find Courses Near You</a>
+                        <a href='./search.html#results' class="btn btn-light btn-block rounded col-sm-8 mt-3 text-dark" role="button">Find Courses Near You</a>
                     </div>
-                    <div class='overflow-hidden text-right mr-5 d-none d-sm-block'>
-                        <img src="img/metro.png" alt="" class='col-5 rounded-circle img11'>
+                    <div class='overflow-hidden text-right mr-md-5 searchHeadernone d-sm-block'>
+                        <img src="img/metro.png" alt="" class='col-5  rounded-circle img11'>
                     </div>
                 </div>
-                <div class="col-12  d-flex justify-content-center justify-content-sm-between align-items-center py-5 mx-0 bg-info">
-                    <div class='col-10 col-sm-7 col-md-5 text-left ml-5 '>
-                        <img src="img/app2.png" alt="" class='d-col-block d-sm-none img1 mb-3'>
+                <div class="col-12 dFlexBet align-items-center py-5 mx-0 bgBlue">  <!-- using displayFlex with css plain -->
+                    <div class='col-10 col-sm-7 col-md-5 text-center text-sm-left ml-5 '>
+                        <img src="img/app2.png" alt="" class='d-col-block d-sm-none img1 mb-3 mx-auto'>
                         <h5 class='font-weight-bold'>Don't matter where you are or if you have money or not!</h5>
                         <span>If you have the will to learn code</span>         
                     </div>
-                    <div class='overflow-hidden text-right mr-5 d-none d-sm-block'>
+                    <div class='overflow-hidden text-right mr-md-5 searchHeadernone d-sm-block'>
                         <img src="img/app2.png" alt="" class='col-5 img11'>
                     </div>
                 </div>
@@ -164,68 +167,68 @@
 
         </main>
         
-        <footer class="navbar navbar-dark bg-dark navbar-expand pt-5">
+        <footer class="navbar navbar-dark bgBlack navbar-expand pt-5">
                 
             <div class="collapse navbar-collapse row d-flex justify-content-md-between">
-                <ul class="col-12 col-sm-6 col-md-5 navbar-nav mx-0  border-top border-bottom border-light d-flex justify-content-between">
+                <ul class="col-5 navbar-nav mx-0  border-top border-bottom border-light d-flex justify-content-between">
             
                     <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                        <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html">HOME</a>
+                        <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                        <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./search.html">SEARCH</a>
+                        <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./search.html">SEARCH</a>
                     </li>
                     <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                        <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#about">ABOUT</a>
+                        <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#about">ABOUT</a>
                     </li>
                     <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                        <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#adverti">ADVERTISE</a>
+                        <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#adverti">ADVERTISE</a>
                     </li>
                 </ul>
-                <div class='d-none col-md-2 d-md-block text-center'>
+                <div class='col-2 d-md-block text-center'>
                     <img src='img/alogo.png' class='foterLogo' alt='logo'>
                 </div>
-                <ul class="col-12 col-sm-6 col-md-5 navbar-nav ml-auto mr-0  border-top border-bottom border-light d-flex justify-content-between">
-                    <li class="nav-item mx-0 ml-lg-3 d-flex">
-                        <a  rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.facebook.com/">FACEBOOK</a>
+                <ul class="col-5 navbar-nav ml-auto mr-0  border-top border-bottom border-light d-flex justify-content-between">
+                    <li class="nav-item mx-0 ml-lg-3 ">
+                        <a  rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.facebook.com/">FACEBOOK</a>
                     </li>
-                    <li class="nav-item mx-0 ml-lg-3 d-flex">
-                        <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://twitter.com/login?lang=es">TWITTER</a>
+                    <li class="nav-item mx-0 ml-lg-3 ">
+                        <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://twitter.com/login?lang=es">TWITTER</a>
                     </li>
-                    <li class="nav-item mx-0 ml-lg-3 d-flex">
-                        <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.blogger.com">BLOG</a>
+                    <li class="nav-item mx-0 ml-lg-3 ">
+                        <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.blogger.com">BLOG</a>
                     </li>
-                    <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                        <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold dropdown-toggle" href="https://www.google.com">GOOGLE</a>
+                    <li class="nav-item  mx-0 ml-lg-3">
+                        <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold dropdown-toggle" href="https://www.google.com">GOOGLE</a>
                     </li>
                 </ul>
             </div>
         </footer>
-        <footer class='bg-dark'>
+        <footer class='bgBlack'>
         
-            <div class="row">
+            <div >
                 <ul class='col-12 row d-flex justify-content-between listNone'>
             
-                    <li class="py-2 py-sm-5 mx-3 col-md-4 d-none d-sm-block">
+                    <li class="py-2 py-sm-5 mx-3 col-md-4 d-none d-md-block">
                     <h5 class="text-center font-weight-bold text-white">Subscribe</h5>
                     <div class="input-group mb-3 col-9 col-md-12 mx-auto">
-                        <input type="text" class="form-control input-black" placeholder="Free Courses" />
+                        <input type="text" class="form-control bgBlack text-white" placeholder="Free Courses" />
                         <div class="input-group-append ">
                         <a href="./inscription.html" class="btn btn-secondary rounded" role="button">send</a>
                         </div>
                     </div>
                     </li>
-                    <li class="text-center py-md-5 mx-3 col-md-2">
+                    <li class="text-center py-md-5  col-md-2 ml-4">
                     <h5 class="text-center font-weight-bold text-white">Contact</h5>
                     <a href='#' class="text-danger text-decoration-none"> info@FreeCourses.com</a>
                     </li>
-                    <li class="text-center text-white py-5 mx-3 col-md-4 d-none d-sm-block">
+                    <li class="text-center text-white py-5 mx-3 col-md-4 d-none d-md-block">
                     <h5 class="font-weight-bold">About</h5>
                     <p class='col-7 col-md-12 mx-auto'> Search about our courses and all the stuff that we provide for free... We want a world of wise people.<a href="#" class="text-danger text-decoration-none"> Learn more...</a></p>
                     </li>
                 </ul>
             </div>
-            <div class="bg-secondary pb-1">
+            <div class="bgGrey pb-1">
                 <ul class="mx-5 d-md-flex justify-content-between listNone">
                     <li class="py-2 footer-list-1 text-white text-center">
                         <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-facebook-f text-white"></i></a>

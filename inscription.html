@@ -12,14 +12,14 @@
     <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
     
 </head>
-<body>
-    <nav id="navbar" class="container-fluid navbar bg-danger sticky-top">
+<body class="w-100">
+    <nav id="navbar" class="navbar navBg sticky-top">
         <div class="col-12 row">
-          
+        
             <div class="col-sm-12 col-md-5 ">
                 <div class="col-12 my-3">
                     <h5 class=" h5  text-center text-md-left">
-                    <a href="./index.html" class="text-decoration-none text-white">
+                    <a href="index.html" class="text-decoration-none text-white">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                         Free Courses
                     </a>
@@ -31,46 +31,52 @@
                     <h4 class=" text-center text-md-right d-md-flex justify-content-end">
                         <a href="./search.html" class="text-decoration-none text-white d-md-flex align-items-center mx-2">
                             <i class="fas fa-search mx-2"></i>
-                            <span class="text-uppercase d-none d-lg-block small">COURSES</span>
+                            <span class="text-uppercase textNone small">COURSES</span>
                         </a>
                         <a href="./index.html#about" class="text-decoration-none text-white  d-md-flex align-items-center mx-2">
-                            <i class=" fas fa-rss mx-2"></i><span class="text-uppercase d-none d-lg-block small">ABOUT</span>
+                            <i class="fas fa-rss mx-2" ></i><span class="textNone small">ABOUT</span>
                         </a>
-                        <a href="inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
-                            <i class="fa fa-user mx-2 "></i><span class="text-uppercase d-none d-lg-block small">SIGN</span>
+                        <a href="./inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
+                            <i class="fa fa-user mx-2 "></i><span class="textNone small">SIGN</span>
                         </a>
                         <a href="./course.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
-                            <i class="fa fa-list mx-2 " ></i><span class="text-uppercase d-none d-lg-block small">MORE...</span>
+                            <i class="fa fa-list mx-2 " ></i><span class="textNone small">MORE</span>
                         </a>
                     </h4>
                 </div>
             </div>
-          
+        
         </div>
     </nav>
     <main class='pt-1'>
         <div class='col-12 my-5 py-5'>
             <img src="img/alogo.png" alt="" class='img1 d-block mx-auto'>
-            <h4 class='text-center text-dark py-4'>Sign up Form</h4>
-            <form class='bgSecond py-4 col-10 col-sm-8 col-md-5 mx-auto shadow p-3 mb-5 rounded border'>
+            <h1 class='text-center text-dark py-4 title1'>Sign up Form</h1>
+            <form class='py-4 col-10 col-sm-8 col-md-5 mx-auto shadow p-3 mb-5 rounded border'>
                 <div class="row">
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="text" class="form-control" placeholder="First Name">
+                    <label for="name" class="font-weight-bold">First Name</label>
+                    <input type="text" class="form-control bgSecond" placeholder="First Name" id='name'>
                   </div>
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="text" class="form-control" placeholder="Email">
+                    <label for="email" class="font-weight-bold">Email</label>
+                    <input type="text" class="form-control bgSecond" placeholder="Email" id='email'>
                   </div>
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="email" class="form-control" placeholder="Last Name">
+                    <label for="last" class="font-weight-bold">Last Name</label>
+                    <input type="email" class="form-control bgSecond" placeholder="Last Name" id='last'>
                   </div>
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="text" class="form-control" placeholder="User Name">
+                    <label for="user" class="font-weight-bold">User Name</label>
+                    <input type="text" class="form-control bgSecond" placeholder="User Name" id='user'>
                   </div>
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="password" class="form-control" placeholder="Password">
+                    <label for="pass" class="font-weight-bold">Password</label>
+                    <input type="password" class="form-control bgSecond" placeholder="Password" id='pass'>
                   </div>
                   <div class="col-10 mt-4 mx-auto">
-                    <input type="password" class="form-control" placeholder="Confirm Password">
+                    <label for="confirm" class="font-weight-bold">Confirm Password</label>
+                    <input type="password" class="form-control bgSecond" placeholder="Confirm Password" id='confirm'>
                   </div>
                     <div class='mx-auto col-10  d-flex justify-content-start align-items-center row'>
                         
@@ -89,68 +95,68 @@
         </div>      
  
     </main>
-    <footer class="navbar navbar-dark bg-dark navbar-expand pt-5">
-            
+    <footer class="navbar navbar-dark bgBlack navbar-expand pt-5">
+                
         <div class="collapse navbar-collapse row d-flex justify-content-md-between">
-            <ul class="col-12 col-sm-6 col-md-5 navbar-nav mx-0  border-top border-bottom border-light d-flex justify-content-between">
-           
+            <ul class="col-5 navbar-nav mx-0  border-top border-bottom border-light d-flex justify-content-between">
+        
                 <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                    <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html">HOME</a>
+                    <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html">HOME</a>
                 </li>
                 <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                    <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./search.html">SEARCH</a>
+                    <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./search.html">SEARCH</a>
                 </li>
                 <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                    <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#about">ABOUT</a>
+                    <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#about">ABOUT</a>
                 </li>
                 <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                    <a  class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#adverti">ADVERTISE</a>
+                    <a  class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="./index.html#adverti">ADVERTISE</a>
                 </li>
             </ul>
-            <div class='d-none col-md-2 d-md-block text-center'>
+            <div class='col-2 d-md-block text-center'>
                 <img src='img/alogo.png' class='foterLogo' alt='logo'>
             </div>
-            <ul class="col-12 col-sm-6 col-md-5 navbar-nav ml-auto mr-0  border-top border-bottom border-light d-flex justify-content-between">
+            <ul class="col-5 navbar-nav ml-auto mr-0  border-top border-bottom border-light d-flex justify-content-between">
                 <li class="nav-item mx-0 ml-lg-3 d-flex">
-                    <a  rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.facebook.com/">FACEBOOK</a>
+                    <a  rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.facebook.com/">FACEBOOK</a>
                 </li>
                 <li class="nav-item mx-0 ml-lg-3 d-flex">
-                    <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://twitter.com/login?lang=es">TWITTER</a>
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://twitter.com/login?lang=es">TWITTER</a>
                 </li>
                 <li class="nav-item mx-0 ml-lg-3 d-flex">
-                    <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.blogger.com">BLOG</a>
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold" href="https://www.blogger.com">BLOG</a>
                 </li>
                 <li class="nav-item  mx-0 ml-lg-3 d-flex">
-                    <a rel='noopener noreferrer disown-opener' target='_blank' class="nav-link text-uppercase align-self-center text-light font-weight-bold dropdown-toggle" href="https://www.google.com">GOOGLE</a>
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class="foterText nav-link text-uppercase align-self-center text-light font-weight-bold dropdown-toggle" href="https://www.google.com">GOOGLE</a>
                 </li>
             </ul>
         </div>
     </footer>
-    <footer class='bg-dark'>
-       
-        <div class="row">
+    <footer class='bgBlack'>
+    
+        <div >
             <ul class='col-12 row d-flex justify-content-between listNone'>
         
-                <li class="py-2 py-sm-5 mx-3 col-md-4 d-none d-sm-block">
+                <li class="py-2 py-sm-5 mx-3 col-md-4 d-none d-md-block">
                 <h5 class="text-center font-weight-bold text-white">Subscribe</h5>
                 <div class="input-group mb-3 col-9 col-md-12 mx-auto">
-                    <input type="text" class="form-control input-black" placeholder="Free Courses" />
+                    <input type="text" class="form-control bgBlack text-white" placeholder="Free Courses" />
                     <div class="input-group-append ">
-                    <a href="./inscription.html" class="btn btn-secondary rounded" role="button">send</a>
+                    <a href="./inscription.html" class="btn btn-secondary rounded " role="button">send</a>
                     </div>
                 </div>
                 </li>
-                <li class="text-center py-md-5 mx-3 col-md-2">
+                <li class="text-center py-md-5  col-md-2 ml-4">
                 <h5 class="text-center font-weight-bold text-white">Contact</h5>
                 <a href='#' class="text-danger text-decoration-none"> info@FreeCourses.com</a>
                 </li>
-                <li class="text-center text-white py-5 mx-3 col-md-4 d-none d-sm-block">
+                <li class="text-center text-white py-5 mx-3 col-md-4 d-none d-md-block">
                 <h5 class="font-weight-bold">About</h5>
                 <p class='col-7 col-md-12 mx-auto'> Search about our courses and all the stuff that we provide for free... We want a world of wise people.<a href="#" class="text-danger text-decoration-none"> Learn more...</a></p>
                 </li>
             </ul>
         </div>
-        <div class="bg-secondary pb-1">
+        <div class="bgGrey pb-1">
             <ul class="mx-5 d-md-flex justify-content-between listNone">
                 <li class="py-2 footer-list-1 text-white text-center">
                     <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-facebook-f text-white"></i></a>
