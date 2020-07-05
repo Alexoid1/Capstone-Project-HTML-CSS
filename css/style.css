@@ -32,7 +32,7 @@ body {
 }
 
 .formBackground {
-  background-color: rgba(255, 255, 255, 0.6); 
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .botonStyle {
@@ -44,7 +44,7 @@ body {
 }
 
 .form2 {
-  height: 33px; 
+  height: 33px;
 }
 
 .img1 {
@@ -71,7 +71,7 @@ body {
   background: rgb(70, 68, 68);
 }
 
-.dFlexBet{
+.dFlexBet {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -103,7 +103,7 @@ body {
     width: 40px;
   }
 
-  .dFlexBet{
+  .dFlexBet {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,15 +123,16 @@ body {
   }
 }
 
-
 @media (max-width: 400px) {
   
   .backgroundImage {
     height: 100vh;
   }
+
   .foterText {
     font-size: 5px;
   }
+  
   .foterLogo {
     width: 20px;
   }
