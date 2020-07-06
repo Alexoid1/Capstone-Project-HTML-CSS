@@ -1,22 +1,56 @@
+
 # Capstone project
 
-> This is a 
+> Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. It is a real-world-like project built with business specifications This project was at the end of the HTML & CSS curriculum section. The minimum required pages for this project were: - the main page or search page, which links to the results page - the search results page, with a list of courses each with a link to the detail course page - the details of the project are in
+the next link (https://www.behance.net/gallery/25563385/PatashuleKE)
 
-![screenshot](./img/screen.png)
+## Homepage
+![screenshot](./img/indexscreen.png)
+
+
+## Search Page
+![screenshot](./img/searchscreen.png)
+
+
+## Sign up Page
+![screenshot](./img/phonescreen.png)
+
+## Course Information Page
+![screenshot](./img/coursescreen.png)
 
 
 
 ## Built With
 
 - HTML5 
-- CSS
-- Fontawesome
-- Bootstrap
+- Fontawesome 
+- Bootstrap (99% Bootstrap style)
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/67118296308fecf24b292ccc4c156306cbe61ec7/index.html)
 
+
+## Video
+
+[Video Link](https://www.loom.com/share/09263495f5084583b39bfadc444a49ce)
+
+## Getting Started
+
+**Navigation bar**
+
+- Go to (https://github.com/Alexoid1/Capstone-Project-HTML-CSS) and have a look around. 
+
+### Prerequisites
+
+- Browser
+- Internet
+- Download the code from repository (https://github.com/Alexoid1/Capstone-Project-HTML-CSS)
+
+## Credit
+
+- Design by Mather Njuguna and Sam Achola.
+- See the Design Template on behance (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Authors
 
@@ -34,10 +68,6 @@ Contributions, issues and feature requests and any type of feedback to improve a
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- 
 
 
 ## 📝 License

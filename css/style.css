@@ -1,0 +1,142 @@
+.backgroundImage {
+  background: url("../img/code61.jpg") center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body {
+  max-width: 1800px;
+  margin: auto;
+  font-family: Helvetica, sans-serif;  /* font-family */
+}
+
+.foterLogo {
+  width: 80px;
+}
+
+.bgFirst {
+  background: rgba(246, 128, 93);
+}
+
+.navBg {
+  background: rgb(231, 103, 86);
+}
+
+.bgBlue {
+  background: rgb(91, 161, 240);
+}
+
+.bgSecond {
+  background: rgb(218, 213, 213);
+}
+
+.formBackground {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.botonStyle {
+  min-width: 120px;
+}
+
+.textsIZE {
+  font-size: 13px;
+}
+
+.form2 {
+  height: 33px;
+}
+
+.img1 {
+  width: 180px;
+}
+
+.img111 {
+  width: 100px;
+}
+
+.img11 {
+  min-width: 180px;
+}
+
+.listNone {
+  list-style: none;
+}
+
+.bgBlack {
+  background: black;
+}
+
+.bgGrey {
+  background: rgb(70, 68, 68);
+}
+
+.dFlexBet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dFlexForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-end;
+}
+
+.searchHeadernone {
+  display: block;
+}
+
+.title1 {
+  font-size: 25px;
+}
+
+.foterText2 {
+  font-size: 10px;
+}
+
+@media (max-width: 1024px) { /* using media queries to hide text */
+  .textNone {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .foterLogo {
+    width: 40px;
+  }
+
+  .dFlexBet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .foterText {
+    font-size: 8px;
+  }
+
+  .searchHeadernone {
+    display: none;
+  }
+
+  .botonCenter {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .backgroundImage {
+    height: 100vh;
+  }
+
+  .foterText {
+    font-size: 8px;
+  }
+
+  .foterLogo {
+    width: 20px;
+  }
+}

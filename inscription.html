@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project HTML-CSS</title>
+    <link rel="icon" href="./img/alogo.png" type="image/gif" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/f977934f89.js" crossorigin="anonymous"></script>
+    
+</head>
+<body class="w-100">
+    <nav id="navbar" class="navbar navBg sticky-top">
+        <div class="col-12 row">
+        
+            <div class="col-sm-12 col-md-5 ">
+                <div class="col-12 my-3">
+                    <h5 class=" h5  text-center text-md-left">
+                    <a href="index.html" class="text-decoration-none text-white">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        Free Courses
+                    </a>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-7">
+                <div class="col-12 my-3">
+                    <h4 class=" text-center text-md-right d-md-flex justify-content-end">
+                        <a href="./search.html" class="text-decoration-none text-white d-md-flex align-items-center mx-2">
+                            <i class="fas fa-search mx-2"></i>
+                            <span class="text-uppercase textNone small">COURSES</span>
+                        </a>
+                        <a href="./index.html#about" class="text-decoration-none text-white  d-md-flex align-items-center mx-2">
+                            <i class="fas fa-rss mx-2" ></i><span class="textNone small">ABOUT</span>
+                        </a>
+                        <a href="./inscription.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
+                            <i class="fa fa-user mx-2 "></i><span class="textNone small">SIGN</span>
+                        </a>
+                        <a href="./course.html" class="text-decoration-none text-white  d-md-flex  align-items-center mx-2">
+                            <i class="fa fa-list mx-2 " ></i><span class="textNone small">MORE</span>
+                        </a>
+                    </h4>
+                </div>
+            </div>
+        
+        </div>
+    </nav>
+    <main class='pt-1'>
+        <div class='col-12 my-5 py-5'>
+            <img src="img/alogo.png" alt="" class='img1 d-block mx-auto'>
+            <h1 class='text-center text-dark py-4 title1'>Sign up Form</h1>
+            <form class='py-4 col-10 col-sm-8 col-md-5 mx-auto shadow p-3 mb-5 rounded border'>
+                <div class="row">
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="name" class="font-weight-bold">First Name</label>
+                    <input type="text" class="form-control bgSecond" placeholder="First Name" id='name'>
+                  </div>
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="email" class="font-weight-bold">Email</label>
+                    <input type="text" class="form-control bgSecond" placeholder="Email" id='email'>
+                  </div>
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="last" class="font-weight-bold">Last Name</label>
+                    <input type="email" class="form-control bgSecond" placeholder="Last Name" id='last'>
+                  </div>
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="user" class="font-weight-bold">User Name</label>
+                    <input type="text" class="form-control bgSecond" placeholder="User Name" id='user'>
+                  </div>
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="pass" class="font-weight-bold">Password</label>
+                    <input type="password" class="form-control bgSecond" placeholder="Password" id='pass'>
+                  </div>
+                  <div class="col-10 mt-4 mx-auto">
+                    <label for="confirm" class="font-weight-bold">Confirm Password</label>
+                    <input type="password" class="form-control bgSecond" placeholder="Confirm Password" id='confirm'>
+                  </div>
+                    <div class='mx-auto col-10  d-flex justify-content-start align-items-center row'>
+                        
+                        <button type="submit" class="mr-auto col-5  d-inline-block btn btn-danger btn-small btn-block mt-4 text-white ">
+                            Sign up
+                        </button>
+                        <button type="submit" class="ml-auto col-5  d-inline-block btn btn-outline-success btn-small btn-block mt-4 text-success ">
+                            Sign in
+                        </button>
+                    </div>
+                    
+                </div>
+                
+            </form>
+
+        </div>      
+ 
+    </main>
+    <footer class="navbar navbar-dark bgBlack navbar-expand pt-5">
+                
+        <div class="collapse navbar-collapse row d-flex justify-content-md-between col-11 mx-auto">
+            <ul class="col-12 col-md-5 navbar-nav mx-0  border-top border-bottom border-light d-flex justify-content-between">
+        
+                <li class="nav-item  mx-0 ml-lg-3 d-flex">
+                    <a  class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="./index.html">HOME</a>
+                </li>
+                <li class="nav-item  mx-0 ml-lg-3 d-flex">
+                    <a  class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="./search.html">SEARCH</a>
+                </li>
+                <li class="nav-item  mx-0 ml-lg-3 d-flex">
+                    <a  class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="./index.html#about">ABOUT</a>
+                </li>
+                <li class="nav-item  mx-0 ml-lg-3 d-flex">
+                    <a  class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="./index.html#adverti">ADVERTISE</a>
+                </li>
+            </ul>
+            <div class='d-none col-2 d-md-block text-center'>
+                <img src='img/alogo.png' class='foterLogo' alt='logo'>
+            </div>
+            <ul class="col-12 col-md-5 navbar-nav ml-auto mr-0  border-top border-bottom border-light d-flex justify-content-between">
+                <li class="nav-item mx-0 ml-lg-3 ">
+                    <a  rel='noopener noreferrer disown-opener' target='_blank' class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="https://www.facebook.com/">FACEBOOK</a>
+                </li>
+                <li class="nav-item mx-0 ml-lg-3 ">
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="https://twitter.com/login?lang=es">TWITTER</a>
+                </li>
+                <li class="nav-item mx-0 ml-lg-3 ">
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class=" nav-link text-uppercase align-self-center text-light font-weight-bold foterText" href="https://www.blogger.com">BLOG</a>
+                </li>
+                <li class="nav-item  mx-0 ml-lg-3">
+                    <a rel='noopener noreferrer disown-opener' target='_blank' class=" nav-link text-uppercase align-self-center text-light font-weight-bold dropdown-toggle foterText" href="https://www.google.com">GOOGLE</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <footer class='bgBlack'>
+    
+        <div >
+            <ul class='col-11 row d-flex justify-content-between listNone mx-auto'>
+        
+                <li class="py-2 py-sm-5 mx-3 col-md-4 d-none d-md-block foterText2">
+                <h5 class="text-center font-weight-bold text-white">Subscribe</h5>
+                <div class="input-group mb-3 col-9 col-md-12 mx-auto">
+                    <input type="text" class="form-control bgBlack text-white" placeholder="Free Courses" />
+                    <div class="input-group-append ">
+                    <a href="./inscription.html" class="btn btn-secondary rounded" role="button">send</a>
+                    </div>
+                </div>
+                </li>
+                <li class="text-center py-md-5  col-md-2 ml-4 foterText2">
+                <h5 class="text-center font-weight-bold text-white">Contact</h5>
+                <a href='#' class="text-danger text-decoration-none"> info@FreeCourses.com</a>
+                </li>
+                <li class="text-center text-white py-5 mx-3 col-md-4 d-none d-md-block foterText2">
+                <h5 class="font-weight-bold">About</h5>
+                <p class='col-7 col-md-12 mx-auto'> Search about our courses and all the stuff that we provide for free... We want a world of wise people.<a href="#" class="text-danger text-decoration-none"> Learn more...</a></p>
+                </li>
+            </ul>
+        </div>
+        <div class="bgGrey pb-1">
+            <ul class="mx-5 d-md-flex justify-content-between listNone">
+                <li class="py-2 footer-list-1 text-white text-center">
+                    <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-facebook-f text-white"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-twitter text-white"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-google text-white"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="mx-2 fab fa-instagram text-white"></i></a>
+                    <a href="#" class="text-decoration-none"><i class="mx-2 fas fa-envelope text-white"></i></a>
+                </li>
+                <li class="py-2 footer-list-2 text-white">
+                    <p class="text-white text-uppercase small text-center">Free courses created by Alexoid. 2020 all rights reserved. </p>
+            
+                </li>
+            </ul>
+        </div>    
+    </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
