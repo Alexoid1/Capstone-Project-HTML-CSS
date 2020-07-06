@@ -92,6 +92,11 @@ body {
   font-size: 25px;
 }
 
+.foterText2 {
+  font-size: 10px;
+}
+
+
 @media (max-width: 1024px) { /* using media queries to hide text */
   .textNone {
     display: none;
@@ -129,7 +134,7 @@ body {
   }
 
   .foterText {
-    font-size: 5px;
+    font-size: 8px;
   }
 
   .foterLogo {
