@@ -96,7 +96,6 @@ body {
   font-size: 10px;
 }
 
-
 @media (max-width: 1024px) { /* using media queries to hide text */
   .textNone {
     display: none;
