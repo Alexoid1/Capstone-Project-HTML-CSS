@@ -33,7 +33,7 @@ the next link (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Video
 
-[Video Link](https://www.loom.com/share/09263495f5084583b39bfadc444a49ce)
+[Video Link]()
 
 ## Getting Started
 
