@@ -34,6 +34,12 @@
 
 [Video Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/dcd2b657139f57a90fad4374f322ce67750ed532/index.html)
 
+## Getting Started
+
+**Navigation bar**
+
+- Go to (https://github.com/Alexoid1/Capstone-Project-HTML-CSS) and have a look around. 
+
 ### Prerequisites
 
 - Browser
