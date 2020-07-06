@@ -34,7 +34,11 @@
 
 [Video Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/dcd2b657139f57a90fad4374f322ce67750ed532/index.html)
 
+### Prerequisites
 
+- Browser
+- Internet
+- Download the code from repository (https://github.com/Alexoid1/Capstone-Project-HTML-CSS)
 
 ## Credit
 
