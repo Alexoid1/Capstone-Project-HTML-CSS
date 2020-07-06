@@ -33,7 +33,7 @@ the next link (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Video
 
-[Video Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/dcd2b657139f57a90fad4374f322ce67750ed532/index.html)
+[Video Link](https://www.loom.com/share/09263495f5084583b39bfadc444a49ce)
 
 ## Getting Started
 
