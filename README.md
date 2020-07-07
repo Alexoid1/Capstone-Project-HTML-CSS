@@ -1,8 +1,7 @@
 
 # Capstone project
 
-> Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. It is a real-world-like project built with business specifications This project was at the end of the HTML & CSS curriculum section. The minimum required pages for this project were: - the main page or search page, which links to the results page - the search results page, with a list of courses each with a link to the detail course page - the details of the project are in
-the next link (https://www.behance.net/gallery/25563385/PatashuleKE)
+> Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. It is a real-world-like project built with business specifications This project was at the end of the HTML & CSS curriculum section.  - the details of the project are in the next link (https://www.behance.net/gallery/25563385/PatashuleKE)
 
 ## Homepage
 ![screenshot](./img/indexscreen.png)
