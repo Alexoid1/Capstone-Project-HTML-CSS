@@ -27,7 +27,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Alexoid1/Capstone-Project-HTML-CSS/67118296308fecf24b292ccc4c156306cbe61ec7/index.html)
+[Live Demo Link](https://alexoid1.github.io/Capstone-Project-HTML-CSS/)
 
 
 ## Video
@@ -38,7 +38,7 @@
 
 **Navigation bar**
 
-- Go to (https://github.com/Alexoid1/Capstone-Project-HTML-CSS) and have a look around. 
+- Go to (https://alexoid1.github.io/Capstone-Project-HTML-CSS/) and have a look around. 
 
 ### Prerequisites
 
